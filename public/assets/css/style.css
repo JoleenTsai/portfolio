@@ -12,6 +12,7 @@
 .jumbotron {
   background-image: url(../images/header_background.jpg);
   font-family: 'Lora', serif;
+  background-size: 100%;
 }
   footer {
     padding: 10px 0;
@@ -34,9 +35,9 @@
 
   /* ABOUT ME */
   .aboutMeContent {
-    margin-top: 20px;
-    margin-block-end: 20px;
-    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
   }
   /* font-family: 'Roboto Slab', serif;
 font-family: 'Lora', serif;
