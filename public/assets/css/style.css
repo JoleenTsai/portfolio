@@ -1,0 +1,51 @@
+.pageTitles {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 5px 0px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 36px;
+}
+.justify-content-center {x`
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 12px;
+}
+.jumbotron {
+  background-image: url(../images/header_background.jpg);
+  font-family: 'Lora', serif;
+  background-size: 100%;
+}
+  footer {
+    padding: 10px 0;
+    clear: both;
+    font-size: 18px;
+    color: #ccc;
+    text-align: center;
+    border-top: .8px solid rgb(151, 151, 151);
+    height: 50px;
+  }
+  .footerIcon {
+    margin: 0px 2px 0px 2px;
+  }
+  .lead {
+    display: inline;
+  }
+  .indexContainer {
+    padding: 10px 0px 10px 0px;
+  }
+
+  /* ABOUT ME */
+  .aboutMeContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .aboutMeLinks {
+    font-family: 'Lora', serif;
+    color: rgb(143, 209, 209);
+  }
+  .aboutMeLinks:hover {
+    color: rgb(141, 172, 230);
+  }
+  /* font-family: 'Roboto Slab', serif;
+font-family: 'Lora', serif;
+font-family: 'Noto Sans TC', sans-serif; */
