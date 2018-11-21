@@ -1,9 +1,9 @@
 .pageTitles {
   display: flex;
   justify-content: center;
-  margin: 20px 0px 10px 0px;
+  margin: 10px 0px 5px 0px;
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 40px;
+  font-size: 36px;
 }
 .justify-content-center {x`
   font-family: 'Noto Sans TC', sans-serif;
@@ -24,6 +24,12 @@
   }
   .footerIcon {
     margin: 0px 2px 0px 2px;
+  }
+  .lead {
+    display: inline;
+  }
+  .indexContainer {
+    padding: 10px 0px 10px 0px;
   }
 
   /* ABOUT ME */
