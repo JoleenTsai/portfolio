@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JOLEEN TSAI</title>
+  <link rel="stylesheet" href="./public/assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans+TC|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/assets/css/style.css">
+</head>
+
+<body>
+  <!-- TITLE/NAV -->
+  <h2 class="pageTitles">JOLEEN TSAI</h2>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">ABOUT ME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- PORTFOLIO -->
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h2 class="display-6">Portfolio</h2>
+    </div>
+  </div>
+  <!-- CAROUSEL -->
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+
+        <div class="carousel-inner" div id="carouselContainer">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./public/assets/images/lifeguard-horizontal.jpg" alt="First slide">
+            <a href="https://joleentsai.github.io/GifTastic/" target="_blank" class="btn btn-block btn-lg projectCaptions">GifTastic</a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./public/assets/images/arial-beach.jpg" alt="Second slide">
+            <a href="https://joleentsai.github.io/Taskwell/" target="_blank" class="btn btn-block btn-lg projectCaptions">Taskwell</a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./public/assets/images/ice-cream.jpg" alt="Third slide">
+            <a href="https://joleentsai.github.io/TriviaGame/" target="_blank" class="btn btn-block btn-lg projectCaptions">Tropical
+              Topical Trivia</a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./public/assets/images/van-horizontal.jpg" alt="Fourth slide">
+            <a href="https://joleentsai.github.io/RespawnDPT/" target="_blank" class="btn btn-block btn-lg projectCaptions">RespawnDPT</a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./public/assets/images/victoria-beach.jpg" alt="Fifth slide">
+            <a href="https://joleentsai.github.io/liri-node-app" target="_blank" class="btn btn-block btn-lg projectCaptions">Liri
+              Node App</a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./public/assets/images/pastel_beach.png" alt="Fifth slide">
+            <a href="https://joleentsai.github.io/Train-Scheduler/" target="_blank" class="btn btn-block btn-lg projectCaptions">Train
+              Scheduler</a>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD DECK -->
+      <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/leaf-hd.jpg" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Taskwell</h5>
+            <p class="card-text">TaskWell organizes and prioritizes user's commitments, lists, and to-dos.</p>
+            <a href="https://taskwell-f8bae.firebaseapp.com/" target="_blank">
+              <p class="card-text"><small class="text-muted"> View Project</small></p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/van.jpg" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Train Scheduler</h5>
+            <p class="card-text">Add trains to Firebase to view the next scheduled arrival.</p>
+            <a href="https://joleentsai.github.io/Train-Scheduler/" target="_blank">
+              <p class="card-text"><small class="text-muted">View Project</small></p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/beach-hd.jpg" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">GIF-Tastic</h5>
+            <p class="card-text">Add in your 90's phrase to pull up GIF's from the Giphy database.</p>
+            <a href="https://joleentsai.github.io/Train-Scheduler/" target="_blank">
+              <p class="card-text"><small class="text-muted">View Project</small></p>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/lifeguard.jpg" alt="Project 5">
+          <div class="card-body">
+            <h5 class="card-title">LIRI Node App</h5>
+            <p class="card-text">LIRI is a command line node app that receives parameters and returns data.</p>
+            <a href="https://joleentsai.github.io/liri-node-app/" target="_blank">
+              <p class="card-text"><small class="text-muted">View Project</small></p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/palm-hd.jpg" alt="Project 6">
+          <div class="card-body">
+            <h5 class="card-title">Tropical Topical Trivia</h5>
+            <p class="card-text">Answer the questions correctly before the two minutes run out.</p>
+            <a href="https://joleentsai.github.io/TriviaGame/" target="_blank">
+              <p class="card-text"><small class="text-muted">View Project</small></p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./public/assets/images/surfboard.jpg" alt="Project 4">
+          <div class="card-body">
+            <h5 class="card-title">Respawn DPT</h5>
+            <p class="card-text">Physical Therapy Informational Website.</p>
+            <a href="https://joleentsai.github.io/RespawnDPT/" target="_blank">
+              <p class="card-text"><small class="text-muted"> View Project</small></p>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="main-container">
+        <i class="fab fa-facebook-f footerIcon"></i>
+        <i class="fab fa-twitter footerIcon"></i>
+        <i class="fab fa-instagram footerIcon"></i>
+        <i class="fab fa-linkedin-in footerIcon"></i>
+        <i class="fas fa-envelope footerIcon"></i>
+      </div>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
